@@ -31,7 +31,9 @@ I included pre-built binaries for the purescript compiler, but you still need a 
 
 `npm install -g http-server`
 
+## cd into the project directory
 
+`cd $HOME/workspace/purescript-quickstart`
 
 ## Build a js file for the browser
 
