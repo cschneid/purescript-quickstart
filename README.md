@@ -7,6 +7,14 @@ Fire up a new box.
 
 [![Hack cschneid/purescript-quickstart on Nitrous](https://d3o0mnbgv6k92a.cloudfront.net/assets/hack-l-v1-4b6757c3247e3c50314390ece34cdb11.png)](https://www.nitrous.io/hack_button?source=embed&runtime=nodejs&repo=cschneid%2Fpurescript-quickstart&file_to_open=README.md)
 
+## Finish Setting up Purescript
+
+Purescript needs its prelude in a certain spot to run correctly so copy it from this repo:
+
+`mkdir -p $HOME/.purescript/prelude`
+
+`cp prelude.purs $HOME/.purescript/prelude/prelude.purs`
+
 ## Install a few more things:
 
 I included pre-built binaries for the purescript compiler, but you still need a few things:
@@ -21,7 +29,7 @@ I included pre-built binaries for the purescript compiler, but you still need a 
 
 ## Put purescript binaries on the path
 
-`export PATH="$PATH:$HOME/workspace/purescript/bin"`
+`export PATH="$PATH:$HOME/workspace/purescript-quickstart/bin"`
 
 
 ## Build a js file for the browser
